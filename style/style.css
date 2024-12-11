@@ -1,14 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
-.header{
+
+.header {
     background-color: #F2CEDA;
+}
+
+.umar_title {
+    display: flex;
+
+}
+
+.nav {}
+
+.umar {
+    margin-top: 99px;
+   
+}
+
+.umar_title {
+    font-family: Arial;
+    font-size: 44.2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.umar_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.umar_link {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.09px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.umar_link:hover {
+    color: #000;
+}
+.umar_title{
+    display: flex;
+    justify-content: center;
 }
